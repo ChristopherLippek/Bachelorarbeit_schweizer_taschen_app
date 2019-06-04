@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SchweizerTaschenmesser</string>
+    <string name="text_flashlight_torch">Taschenlampe</string>
+    <string name="text_flashlight_switch">Erlaube Kamera Licht</string>
+    <string name="description_compass">Compass</string>
+</resources>

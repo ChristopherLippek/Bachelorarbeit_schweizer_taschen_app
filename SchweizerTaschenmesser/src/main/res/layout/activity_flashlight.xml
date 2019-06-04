@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Flashlight"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/imageTorchSwitch"
+        android:layout_width="115dp"
+        android:layout_height="49dp"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="374dp"
+        android:contentDescription="Switch"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_off_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ovenTextView"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="149dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="35dp"
+        android:scaleType="fitXY"
+        android:text="@string/text_flashlight_switch"
+        app:layout_constraintBottom_toTopOf="@+id/imageTorchSwitch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ovenTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="27dp"
+        android:text="@string/text_flashlight_torch"
+        app:layout_constraintBottom_toBottomOf="@+id/imageTorchSwitch"
+        app:layout_constraintEnd_toStartOf="@+id/imageTorchSwitch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageTorchSwitch" />
+
+</android.support.constraint.ConstraintLayout>
