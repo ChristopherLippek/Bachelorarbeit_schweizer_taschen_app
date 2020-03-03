@@ -3,12 +3,52 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/build.gradle">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/src/androidTest/java/de/fh_erfurt/omnichrom/schweizertaschenmesser/ConvertTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/src/androidTest/java/de/fh_erfurt/omnichrom/schweizertaschenmesser/ExampleInstrumentedTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/src/androidTest/java/de/fh_erfurt/omnichrom/schweizertaschenmesser/KonvertierungsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/src/androidTest/java/de/fh_erfurt/omnichrom/schweizertaschenmesser/MainActivityTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/src/androidTest/java/de/fh_erfurt/omnichrom/schweizertaschenmesser/MainActivityTest2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/src/androidTest/java/de/fh_erfurt/omnichrom/schweizertaschenmesser/MainActivityTest3.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/src/androidTest/java/de/fh_erfurt/omnichrom/schweizertaschenmesser/cookingHelper.java">
           <value>
             <set />
           </value>
