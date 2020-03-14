@@ -37,7 +37,7 @@ public class Compass extends AppCompatActivity implements SensorEventListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compass);
 
-        imageView = (ImageView) findViewById(R.id.compass);
+        imageView = findViewById(R.id.compass);
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
     }
 
@@ -87,12 +87,12 @@ public class Compass extends AppCompatActivity implements SensorEventListener
             }
 
             //Rotationmatrix
-            float R[] = new float[9];
-            float I[] = new float[9];
+            float[] R = new float[9];
+            float[] I = new float[9];
             boolean success = SensorManager.getRotationMatrix(R, I, gravity, geomagnetic);
             if (success)
             {
-                float orientation[] = new float[3];
+                float[] orientation = new float[3];
                 SensorManager.getOrientation(R, orientation);
                 azimuth = (float) Math.toDegrees(orientation[0]);
                 azimuth = (azimuth + 360) % 360;

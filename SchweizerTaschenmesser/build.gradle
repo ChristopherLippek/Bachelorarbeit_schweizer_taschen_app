@@ -21,17 +21,15 @@ android {
 
 sonarqube {
     properties {
-        def libraries = project.android.sdkDirectory.getPath() + "/platforms/android-23/android.jar"/* + ", build/intermediates/exploded-aar*//**//*classes.jar"*/
-        property "sonar.sources", "src/main/java"
-        property "sonar.binaries", "build/intermediates/classes/debug"
-        property "sonar.libraries", libraries
-        property "sonar.tests", "src/test/java, src/androidTest/java"
-        property "sonar.java.test.binaries", "build/intermediates/class/debug"
-        property "sonar.java.test.libraries", libraries
-        property "sonar.jacoco.reportPath", "build/jacoco/testDebugUnitTest.exec"
-        property "sonar.java.coveragePlugin", "jacoco"
-        property "sonar.junit.reportsPath", "build/test-results/debug"
-        property "sonar.android.lint.report", "build/outputs/lint-results"
+        property "sonar.projectName", "pme_versuch_2_schweizer_taschen_app"
+        property "sonar.projectKey", "Bachelorarbeit"
+        property "sonar.host.url", "http://localhost:9000"
+        property "sonar.language", "java"
+        property "sonar.source", "src/main/java"
+        property "sonar.java.source", "scr/main/java"
+        property "sonar.sourceEncoding" "UTF-8"
+        property "sonar.login", "admin"
+        property "sonar.password", "admin"
     }
 
 }

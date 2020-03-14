@@ -52,18 +52,18 @@ public class MainActivity extends AppCompatActivity
 
 
 
-        imageView_Compass = (ImageView) findViewById(R.id.compassImageView);
-        imageView_theethHelper = (ImageView) findViewById(R.id.imageView8);
-        imageView_CurrencyConverter = (ImageView) findViewById(R.id.currencyConverterImageView);
-        imageView_CookingHelper = (ImageView) findViewById(R.id.cookingHelperImageView);
-        imageView_TikTakTo = (ImageView) findViewById(R.id.tikTakToImageView);
+        imageView_Compass = findViewById(R.id.compassImageView);
+        imageView_theethHelper = findViewById(R.id.imageView8);
+        imageView_CurrencyConverter = findViewById(R.id.currencyConverterImageView);
+        imageView_CookingHelper = findViewById(R.id.cookingHelperImageView);
+        imageView_TikTakTo = findViewById(R.id.tikTakToImageView);
 
-        cityEditText = (EditText) findViewById(R.id.editText2);
+        cityEditText = findViewById(R.id.editText2);
 
-        temperatur = (TextView) findViewById(R.id.textView);
-        feeledTemp = (TextView) findViewById(R.id.textView6);
+        temperatur = findViewById(R.id.textView);
+        feeledTemp = findViewById(R.id.textView6);
 
-        condition = (ImageView) findViewById(R.id.imageView3);
+        condition = findViewById(R.id.imageView3);
 
 
 

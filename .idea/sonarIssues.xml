@@ -28,7 +28,7 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/src/androidTest/java/de/fh_erfurt/omnichrom/schweizertaschenmesser/KonvertierungsTest.java">
+        <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/src/androidTest/java/de/fh_erfurt/omnichrom/schweizertaschenmesser/KonTest.java">
           <value>
             <set />
           </value>
@@ -48,22 +48,17 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/src/androidTest/java/de/fh_erfurt/omnichrom/schweizertaschenmesser/cookingHelper.java">
+        <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/src/androidTest/java/de/fh_erfurt/omnichrom/schweizertaschenmesser/TikTakToTest.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/build.gradle">
+        <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/src/main/java/de/fh_erfurt/omnichrom/schweizertaschenmesser/MainActivity.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/local.properties">
+        <entry key="$PROJECT_DIR$/gradle.properties">
           <value>
             <set />
           </value>

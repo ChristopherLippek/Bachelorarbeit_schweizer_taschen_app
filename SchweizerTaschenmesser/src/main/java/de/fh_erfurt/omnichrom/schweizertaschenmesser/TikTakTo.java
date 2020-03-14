@@ -25,8 +25,8 @@ public class TikTakTo extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tiktakto);
-        button = (Button) findViewById(R.id.playAgainButton);
-        textView = (TextView) findViewById(R.id.winnerTextView);
+        button = findViewById(R.id.playAgainButton);
+        textView = findViewById(R.id.winnerTextView);
     }
 
     //ImageView on the left top
@@ -77,9 +77,9 @@ public class TikTakTo extends AppCompatActivity
                     {
                         //spieler 1 hat gewonnen
                         isGameActive = false;
-                        Button button = (Button) findViewById(R.id.playAgainButton);
+                        Button button = findViewById(R.id.playAgainButton);
                         button.setVisibility(View.VISIBLE);
-                        TextView textView = (TextView) findViewById(R.id.winnerTextView);
+                        TextView textView = findViewById(R.id.winnerTextView);
                         textView.setText("Spieler 1 hat Gewonnen");
                         textView.setVisibility(View.VISIBLE);
                     }
@@ -87,9 +87,9 @@ public class TikTakTo extends AppCompatActivity
                     {
                         //spieler 2 hat gewonnen
                         isGameActive = false;
-                        Button button = (Button) findViewById(R.id.playAgainButton);
+                        Button button = findViewById(R.id.playAgainButton);
                         button.setVisibility(View.VISIBLE);
-                        TextView textView = (TextView) findViewById(R.id.winnerTextView);
+                        TextView textView = findViewById(R.id.winnerTextView);
                         textView.setText("Spieler 2 hat Gewonnen");
                         textView.setVisibility(View.VISIBLE);
                     }

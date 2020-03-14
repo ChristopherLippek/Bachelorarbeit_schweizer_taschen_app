@@ -158,7 +158,7 @@ public class CookingHelper extends AppCompatActivity implements AdapterView.OnIt
             secondString = "0" + secondString;
         }
 
-        timeTextView.setText(Integer.toString(minutes) + " : " + secondString);
+        timeTextView.setText(minutes + " : " + secondString);
     }
 
     /**
@@ -192,12 +192,12 @@ public class CookingHelper extends AppCompatActivity implements AdapterView.OnIt
         setContentView(R.layout.activity_cooking);
         oven = findViewById(R.id.ovenTextView);
         selfoven = findViewById(R.id.selfOvenTextView);
-        timer = (SeekBar) findViewById(R.id.timeSeekBar);
+        timer = findViewById(R.id.timeSeekBar);
         mediaPlayer = MediaPlayer.create(this, R.raw.doorbell);
-        timeTextView = (TextView) findViewById(R.id.timeTextView);
+        timeTextView = findViewById(R.id.timeTextView);
         whatCookingTime = "";
 
-        dropdown = (Spinner) findViewById(R.id.spinner1);
+        dropdown = findViewById(R.id.spinner1);
         dropdown.setOnItemSelectedListener(this);
         items = new String[]{"", "pizza", "chicken nuggets", "mozzarella sticks", "fischstäbchen", "chili cheese nuggets"
         , "chicken wings", "pommes"};
@@ -206,8 +206,8 @@ public class CookingHelper extends AppCompatActivity implements AdapterView.OnIt
         dropdown.setAdapter(adapter);
 
         rotate = true;
-        imageView = (ImageView) findViewById(R.id.imageView);
-        goButton = (Button) findViewById(R.id.goButton);
+        imageView = findViewById(R.id.imageView);
+        goButton = findViewById(R.id.goButton);
 
         //seekbar to chose the time
         timer.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener()

@@ -52,15 +52,15 @@ public class CurrencyConverter extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_currency);
-        sourceTextView = (TextView) findViewById(R.id.sourceTextView);
-        targetTextView = (TextView) findViewById(R.id.targetTextView);
-        amountEditText = (EditText) findViewById(R.id.editText);
-        amountFromAPI = (TextView) findViewById(R.id.amountFromAPI);
-        exchangeRateTextView = (TextView) findViewById(R.id.exchangeRateTextView);
+        sourceTextView = findViewById(R.id.sourceTextView);
+        targetTextView = findViewById(R.id.targetTextView);
+        amountEditText = findViewById(R.id.editText);
+        amountFromAPI = findViewById(R.id.amountFromAPI);
+        exchangeRateTextView = findViewById(R.id.exchangeRateTextView);
         amount = "1";
 
 
-        final String Currencies[] = {"EUR", "USD", "TND", "CHF", "BTC", "JPY", "RUB", "DKK", "LBP"};
+        final String[] Currencies = {"EUR", "USD", "TND", "CHF", "BTC", "JPY", "RUB", "DKK", "LBP"};
 
         //1. initialization the ListView
         ListView sourceListView = findViewById(R.id.sourceListView);

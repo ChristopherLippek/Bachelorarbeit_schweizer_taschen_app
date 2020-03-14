@@ -45,8 +45,8 @@ public class Flashlight extends AppCompatActivity
         setContentView(R.layout.activity_flashlight);
 
         // get views
-        buttonTorchOnOff = (ImageView) findViewById(R.id.imageTorchSwitch);
-        buttonEnableCamera = (Button) findViewById(R.id.button);
+        buttonTorchOnOff = findViewById(R.id.imageTorchSwitch);
+        buttonEnableCamera = findViewById(R.id.button);
 
         // find flash
         final boolean hasCameraFlash = getPackageManager().

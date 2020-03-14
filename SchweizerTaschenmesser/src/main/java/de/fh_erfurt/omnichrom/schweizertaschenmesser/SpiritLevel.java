@@ -53,16 +53,16 @@ public class SpiritLevel extends AppCompatActivity implements SensorEventListene
         SM.registerListener(this, mySensor, SensorManager.SENSOR_DELAY_NORMAL);
 
         // Assign text views
-        xText = (TextView)findViewById(R.id.xText);
-        yText = (TextView)findViewById(R.id.yText);
+        xText = findViewById(R.id.xText);
+        yText = findViewById(R.id.yText);
 
         // Assign image views
-        xBubble = (ImageView)findViewById(R.id.spiritLevelBubbleHorizontal);
-        yBubble = (ImageView)findViewById(R.id.spiritLevelBubbleVertical);
+        xBubble = findViewById(R.id.spiritLevelBubbleHorizontal);
+        yBubble = findViewById(R.id.spiritLevelBubbleVertical);
 
         // Assign bubble boundaries
-        xBubbleBound = (Space)findViewById(R.id.bubbleHorizontalBoundaries);
-        yBubbleBound = (Space)findViewById(R.id.bubbleVerticalBoundaries);
+        xBubbleBound = findViewById(R.id.bubbleHorizontalBoundaries);
+        yBubbleBound = findViewById(R.id.bubbleVerticalBoundaries);
 
         if (DEBUG) {
             xText.setText("");
@@ -110,8 +110,8 @@ public class SpiritLevel extends AppCompatActivity implements SensorEventListene
         float yBubblePos = yBubble.getY();
 
         // get boundaries
-        float xBubbleBounds[] = new float[2];
-        float yBubbleBounds[] = new float[2];
+        float[] xBubbleBounds = new float[2];
+        float[] yBubbleBounds = new float[2];
         xBubbleBounds[0] = xBubbleBound.getX();
         xBubbleBounds[1] = xBubbleBound.getWidth();
         yBubbleBounds[0] = yBubbleBound.getY();

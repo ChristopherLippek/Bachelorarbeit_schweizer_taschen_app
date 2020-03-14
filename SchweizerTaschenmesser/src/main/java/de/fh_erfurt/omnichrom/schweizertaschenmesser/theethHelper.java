@@ -95,11 +95,11 @@ public class theethHelper extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_theethhelper);
-        theethImage = (ImageView) findViewById(R.id.imageView2);
-        timeTextView = (TextView) findViewById(R.id.timeTextView);
-        button = (Button) findViewById(R.id.button3);
+        theethImage = findViewById(R.id.imageView2);
+        timeTextView = findViewById(R.id.timeTextView);
+        button = findViewById(R.id.button3);
         timerIsStarted = false;
-        info = (TextView) findViewById(R.id.textView8);
+        info = findViewById(R.id.textView8);
     }
 
     public void ResetTimer()
@@ -124,6 +124,6 @@ public class theethHelper extends AppCompatActivity
             secondString = "0" + secondString;
         }
 
-        timeTextView.setText(Integer.toString(minutes) + " : " + secondString);
+        timeTextView.setText(minutes + " : " + secondString);
     }
 }
