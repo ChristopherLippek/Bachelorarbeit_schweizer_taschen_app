@@ -21,7 +21,7 @@ android {
 
 sonarqube {
     properties {
-        property "sonar.projectName", "pme_versuch_2_schweizer_taschen_app"
+        property "sonar.projectName", "Bachelorarbeit"
         property "sonar.projectKey", "Bachelorarbeit"
         property "sonar.host.url", "http://localhost:9000"
         property "sonar.language", "java"

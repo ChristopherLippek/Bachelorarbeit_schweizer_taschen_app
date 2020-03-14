@@ -13,6 +13,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../MyApplication/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SecondTry/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SecondTry/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/SchweizerTaschenmesser/build.gradle">
           <value>
             <set />
@@ -58,7 +73,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/local.properties">
           <value>
             <set />
           </value>
